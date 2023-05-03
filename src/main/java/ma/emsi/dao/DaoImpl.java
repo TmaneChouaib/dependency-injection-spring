@@ -1,4 +1,4 @@
-package dao;
+package ma.emsi.dao;
 
 //On vas créer une implementation de cette interface
 public class DaoImpl implements IDao{

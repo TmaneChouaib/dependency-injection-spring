@@ -1,6 +1,6 @@
-package ext;
+package ma.emsi.ext;
 
-import dao.IDao;
+import ma.emsi.dao.IDao;
 
 public class DaoImplVWS implements IDao {
     @Override

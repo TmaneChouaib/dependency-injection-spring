@@ -1,7 +1,7 @@
-package pres;
+package ma.emsi.pres;
 
-import dao.IDao;
-import metier.IMetier;
+import ma.emsi.dao.IDao;
+import ma.emsi.metier.IMetier;
 
 import java.io.File;
 import java.io.FileNotFoundException;

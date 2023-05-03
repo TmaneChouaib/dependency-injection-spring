@@ -1,7 +1,7 @@
-package pres;
+package ma.emsi.pres;
 
-import ext.DaoImpl2;
-import metier.MetierImpl;
+import ma.emsi.ext.DaoImpl2;
+import ma.emsi.metier.MetierImpl;
 
 public class Presentation {
     /*

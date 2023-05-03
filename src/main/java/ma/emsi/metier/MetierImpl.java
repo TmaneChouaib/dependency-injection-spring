@@ -1,6 +1,6 @@
-package metier;
+package ma.emsi.metier;
 
-import dao.IDao;
+import ma.emsi.dao.IDao;
 
 public class MetierImpl implements IMetier {
 
