@@ -12,14 +12,14 @@ public class Presentation {
 
         //Instanciation static
         DaoImpl2 dao= new DaoImpl2();
-        MetierImpl metier=new MetierImpl();
-        metier.setDao(dao);
+        MetierImpl metier=new MetierImpl(dao);
+        //metier.setDao(dao);
 
         System.out.println("#######################################################################");
         System.out.println("############################# Présentation ############################");
         System.out.println("#######################################################################");
 
-        System.out.println("la classe Présentation fait l'injection des dépendance d'une manière dynamique.");
+        System.out.println("la classe Présentation fait l'injection des dépendance d'une manière static.");
         System.out.println("Résultat => "+metier.calcul());
     }
 }
