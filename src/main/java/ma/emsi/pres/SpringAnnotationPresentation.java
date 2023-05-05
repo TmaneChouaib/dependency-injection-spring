@@ -13,7 +13,7 @@ public class SpringAnnotationPresentation {
         System.out.println("##################### PresentationSpringAnnotation ####################");
         System.out.println("#######################################################################");
 
-        System.out.println("the SpringAnnotationPresentation class does dependencies injection with Spring using the @Annotation.");
+        System.out.println("The SpringAnnotationPresentation class does dependencies injection with Spring using the @Annotation.");
 
         System.out.println("Result =>"+metier.calcul());
     }

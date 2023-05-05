@@ -9,7 +9,7 @@ public class DaoImplNum1 implements IDao{
         /*
             Connect to DB to retrieve temperature
         */
-        System.out.println("implementation number 1 : database version");
+        System.out.println("Implementation number 1 : database version");
         double temp=Math.random()*40;
         return temp;
     }

@@ -5,12 +5,11 @@ import ma.emsi.business.BusinessImpl;
 
 public class StaticPresentation {
     /*
-        Injection des dépendances par
-        instanciation statique => new
+        new => Injecting dependencies through static instantiation
     */
     public static void main(String[] args) {
 
-        //Instanciation static
+        //Static instantiation
         DaoImplNum2 dao= new DaoImplNum2();
         BusinessImpl metier=new BusinessImpl(dao);
         //metier.setDao(dao);
@@ -19,7 +18,7 @@ public class StaticPresentation {
         System.out.println("######################### Static Presentation #########################");
         System.out.println("#######################################################################");
 
-        System.out.println("the StaticPresentation class does dependencies injection in a static way.");
+        System.out.println("The StaticPresentation class does dependencies injection in a static way.");
         System.out.println("Result =>"+metier.calcul());
     }
 }

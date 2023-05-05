@@ -9,7 +9,7 @@ public class DynamicPresentation {
 /*        Scanner scanner =new Scanner(new File("config.txt"));
 
         //Dynamic instantiation
-        //the new Instance method is crossed out, because it is a "deprecated" method
+        //The new Instance method is crossed out, because it is a "deprecated" method
         String daoClassName=scanner.nextLine();
         Class cDao=Class.forName(daoClassName);
         IDao dao=(IDao)cDao.newInstance();
@@ -18,7 +18,7 @@ public class DynamicPresentation {
         Class cMetier=Class.forName(metierClassName);
         IMetier metier=(IMetier) cMetier.newInstance();
 
-        //invoke the setDao method of the MetierImpl class
+        //Invoke the setDao method of the MetierImpl class
         Method method=cMetier.getMethod("setDao",IDao.class);
         method.invoke(metier,dao);
 
@@ -27,13 +27,13 @@ public class DynamicPresentation {
         System.out.println("######################### Dynamic Presentation ########################");
         System.out.println("#######################################################################");
 
-        System.out.println("the DynamicPresentation class does dependency injection in a dynamic way.");
+        System.out.println("The DynamicPresentation class does dependency injection in a dynamic way.");
         System.out.println("Result => "+metier.calcul());*/
 
         System.out.println("#######################################################################");
         System.out.println("######################### Dynamic Presentation ########################");
         System.out.println("#######################################################################");
 
-        System.out.println("the DynamicPresentation class does dependencies injection in a dynamic way.");
+        System.out.println("The DynamicPresentation class does dependencies injection in a dynamic way.");
     }
 }

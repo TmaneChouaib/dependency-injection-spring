@@ -13,7 +13,7 @@ public class SpringXMLPresentation {
         System.out.println("######################### PresentationSpringXML #######################");
         System.out.println("#######################################################################");
 
-        System.out.println("the SpringXMLPresentation class does dependencies injection with Spring using XML tags.");
+        System.out.println("The SpringXMLPresentation class does dependencies injection with Spring using XML tags.");
         System.out.println("Result =>"+metier.calcul());
     }
 }
