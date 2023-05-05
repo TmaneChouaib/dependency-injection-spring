@@ -2,10 +2,10 @@ package ma.emsi.ext;
 
 import ma.emsi.dao.IDao;
 
-public class DaoImplVWS implements IDao {
+public class DaoImplNum3 implements IDao {
     @Override
     public double getData() {
-        System.out.println("version 3 : version web service");
+        System.out.println("implementation number 3 : web service version");
         int temp =30;
         return temp ;
     }
