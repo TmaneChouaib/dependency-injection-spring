@@ -1,12 +1,18 @@
 package ma.emsi.pres;
 
+import ma.emsi.business.IBusiness;
+import ma.emsi.dao.IDao;
+
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.util.Scanner;
 
 public class DynamicPresentation {
     public static void main(String[] args) throws FileNotFoundException, ClassNotFoundException, InstantiationException, IllegalAccessException, ClassCastException, NoSuchMethodException, InvocationTargetException {
 
-/*        Scanner scanner =new Scanner(new File("config.txt"));
+        Scanner scanner =new Scanner(new File("config.txt"));
 
         //Dynamic instantiation
         //The new Instance method is crossed out, because it is a "deprecated" method
@@ -16,7 +22,8 @@ public class DynamicPresentation {
 
         String metierClassName=scanner.nextLine();
         Class cMetier=Class.forName(metierClassName);
-        IMetier metier=(IMetier) cMetier.newInstance();
+        //IBusiness metier=(IBusiness) cMetier.newInstance();
+        IBusiness metier = (IBusiness)cMetier.getConstructor(IDao.class).newInstance(dao);
 
         //Invoke the setDao method of the MetierImpl class
         Method method=cMetier.getMethod("setDao",IDao.class);
@@ -28,12 +35,7 @@ public class DynamicPresentation {
         System.out.println("#######################################################################");
 
         System.out.println("The DynamicPresentation class does dependency injection in a dynamic way.");
-        System.out.println("Result => "+metier.calcul());*/
+        System.out.println("Result => "+metier.calcul());
 
-        System.out.println("#######################################################################");
-        System.out.println("######################### Dynamic Presentation ########################");
-        System.out.println("#######################################################################");
-
-        System.out.println("The DynamicPresentation class does dependencies injection in a dynamic way.");
     }
 }

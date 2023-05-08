@@ -1,6 +1,7 @@
 package ma.emsi.business;
 
 import ma.emsi.dao.IDao;
+import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
 @Component
