@@ -7,7 +7,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class SpringAnnotationPresentation {
     public static void main(String[] args) {
         ApplicationContext context = new AnnotationConfigApplicationContext("ma");
-        IBusiness metier = context.getBean(IBusiness.class);
+        IBusiness business = context.getBean(IBusiness.class);
 
         System.out.println("#######################################################################");
         System.out.println("##################### PresentationSpringAnnotation ####################");
@@ -15,6 +15,6 @@ public class SpringAnnotationPresentation {
 
         System.out.println("The SpringAnnotationPresentation class does dependencies injection with Spring using the @Annotation.");
 
-        System.out.println("Result =>"+metier.calcul());
+        System.out.println("Result =>"+business.calculate());
     }
 }

@@ -21,13 +21,13 @@ public class DynamicPresentation {
         IDao dao=(IDao)cDao.newInstance();
 
         String metierClassName=scanner.nextLine();
-        Class cMetier=Class.forName(metierClassName);
-        //IBusiness metier=(IBusiness) cMetier.newInstance();
-        IBusiness metier = (IBusiness)cMetier.getConstructor(IDao.class).newInstance(dao);
+        Class cBusiness=Class.forName(metierClassName);
+        //IBusiness business=(IBusiness) cBusiness.newInstance();
+        IBusiness business = (IBusiness)cBusiness.getConstructor(IDao.class).newInstance(dao);
 
         //Invoke the setDao method of the MetierImpl class
-        Method method=cMetier.getMethod("setDao",IDao.class);
-        method.invoke(metier,dao);
+        Method method=cBusiness.getMethod("setDao",IDao.class);
+        method.invoke(business,dao);
 
 
         System.out.println("#######################################################################");
@@ -35,7 +35,7 @@ public class DynamicPresentation {
         System.out.println("#######################################################################");
 
         System.out.println("The DynamicPresentation class does dependency injection in a dynamic way.");
-        System.out.println("Result => "+metier.calcul());
+        System.out.println("Result => "+business.calculate());
 
     }
 }
