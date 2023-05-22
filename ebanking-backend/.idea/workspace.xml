@@ -4,13 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="945c7998-43cd-4582-a885-8a52904977b4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="cb11619f-a463-4c57-9ab3-880057797491" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../IoC-part-02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IoC-part-02/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -19,18 +26,13 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="workspaceImportEnabled" value="true" />
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="2PhSeyjXUaP4Vha9cyVtJDgy0Ya" />
+  <component name="ProjectId" id="2PjNV9iGXn4SDowcNL4hpL7eCiv" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,25 +42,34 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Chouaib/IdeaProjects/injection-of-dependencies-part-01",
+    "last_opened_file_path": "C:/Users/Chouaib/IdeaProjects/spring-ebanking",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "spring.configuration.checksum": "885519601fb34c68b954ff9f984e839d",
+    "spring.configuration.checksum": "bc2ebe59955ccb465943d5f3a2963ea4",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="EbankingBackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ebanking-backend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ma.emsi.ebankingbackend.EbankingBackendApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="945c7998-43cd-4582-a885-8a52904977b4" name="Changes" comment="" />
-      <created>1683907920910</created>
+      <changelist id="cb11619f-a463-4c57-9ab3-880057797491" name="Changes" comment="" />
+      <created>1683966555300</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1683907920910</updated>
-      <workItem from="1683907923018" duration="1433000" />
-      <workItem from="1683910747667" duration="116000" />
+      <updated>1683966555300</updated>
+      <workItem from="1683966556721" duration="387000" />
+      <workItem from="1683966963558" duration="31000" />
     </task>
     <servers />
   </component>
