@@ -1,6 +1,6 @@
 package ma.emsi.pres;
 
-import ma.emsi.ext.DaoImplNum2;
+import ma.emsi.ext.DaoImplNumB;
 import ma.emsi.business.BusinessImpl;
 
 public class StaticPresentation {
@@ -10,7 +10,7 @@ public class StaticPresentation {
     public static void main(String[] args) {
 
         //Static instantiation
-        DaoImplNum2 dao= new DaoImplNum2();
+        DaoImplNumB dao= new DaoImplNumB();
         BusinessImpl business=new BusinessImpl(dao);
         //metier.setDao(dao);
 

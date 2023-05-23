@@ -3,7 +3,7 @@ package ma.emsi.dao;
 import org.springframework.stereotype.Component;
 
 @Component
-public class DaoImplNum1 implements IDao{
+public class DaoImplNumA implements IDao{
     @Override
     public double getData() {
         /*
