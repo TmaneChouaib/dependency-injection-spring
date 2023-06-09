@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/IoC-part-02/IoC-part-02.iml" filepath="$PROJECT_DIR$/IoC-part-02/IoC-part-02.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/injection-of-dependencies-part-02.iml" filepath="$PROJECT_DIR$/.idea/injection-of-dependencies-part-02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/dependency-injection-spring.iml" filepath="$PROJECT_DIR$/.idea/dependency-injection-spring.iml" />
     </modules>
   </component>
 </project>
