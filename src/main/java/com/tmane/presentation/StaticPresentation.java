@@ -7,7 +7,7 @@ public class StaticPresentation {
 
     public static void main(String[] args) {
         DaoImpl_C daoImpl = new DaoImpl_C();
-        BusinessImpl business = new BusinessImpl();
+        BusinessImpl business = new BusinessImpl(daoImpl);
         business.setDao(daoImpl);
 
         System.out.println("Static presentation : ");

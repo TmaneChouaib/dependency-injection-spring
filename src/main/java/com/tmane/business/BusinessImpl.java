@@ -4,6 +4,8 @@ import com.tmane.dao.IDao;
 
 public class BusinessImpl implements IBusiness {
 
+    public BusinessImpl(IDao dao){this.dao=dao;}
+
     private IDao dao;
 
     @Override
