@@ -1,5 +1,7 @@
 package com.tmane.dao;
 
+import org.springframework.stereotype.Component;
+
 public class DaoImpl_A implements IDao {
     @Override
     public double getData() {

@@ -9,7 +9,7 @@ public class SpringXmlPresentation {
         ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
         IBusiness business = (IBusiness) context.getBean("Business");
 
-        System.out.println("Spring Xml presentation: ");
-        System.out.println("Result =>"+business.calculate());
+        System.out.println("Spring Xml presentation : ");
+        System.out.println("Result => "+business.calculate());
     }
 }

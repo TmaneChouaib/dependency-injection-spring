@@ -1,7 +1,9 @@
 package com.tmane.business;
 
 import com.tmane.dao.IDao;
+import org.springframework.stereotype.Component;
 
+@Component
 public class BusinessImpl implements IBusiness {
 
     public BusinessImpl(IDao dao){this.dao=dao;}
