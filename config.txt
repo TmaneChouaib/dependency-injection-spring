@@ -1,0 +1,2 @@
+com.tmane.extention.DaoImpl_B
+com.tmane.business.BusinessImpl
